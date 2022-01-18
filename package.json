@@ -1,0 +1,24 @@
+{
+  "name": "hetproces",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doingz/hetproces.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doingz/hetproces/issues"
+  },
+  "homepage": "https://github.com/doingz/hetproces/",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "sass": "^1.48.0"
+  }
+}

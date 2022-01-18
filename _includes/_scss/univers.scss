@@ -1,0 +1,16 @@
+$pink: #F7AAB6;
+
+$break-small: 370px;
+$break-medium: 700px;
+$break-large: 1200px;
+
+* {
+  box-sizing: border-box;
+}
+
+.wrap {
+  text-align: left;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}

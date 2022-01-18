@@ -1,0 +1,55 @@
+.content {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 2rem;
+  text-align: center;
+
+  .cat {
+    width: 100%;
+    padding: 2rem;
+    text-align: left;
+
+    h1 {
+      font-size: 3.2rem;
+      color: $pink;
+    }
+
+    .img {
+      width: 100%;
+      padding-top: 50%;
+      background-color: #222;
+    }
+  }
+
+  .items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 6rem;
+
+    .item {
+      position: relative;
+      width: calc(50% - 4rem);
+      text-align: center;
+
+      .img {
+        margin: 0 auto 4rem;
+        width: 80%;
+        padding-top: 80%;
+        background-color: #222;
+        border-radius: 50%;
+      }
+
+      .title {
+        text-align: left;
+        width: 100%;
+      }
+
+      .excerpt {
+        text-align: left;
+      }
+    }
+  }
+}

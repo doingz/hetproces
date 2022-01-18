@@ -1,0 +1,22 @@
+.intro {
+  position: relative;
+  width: 100%;
+  padding-top: 50%;
+  overflow: hidden;
+  margin-bottom: 4rem;
+
+  &::after {
+    content: "";
+    width: 108%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%,-50%,0);
+
+    background-image: url(../img/home-intro.svg);
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

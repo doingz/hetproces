@@ -1,0 +1,17 @@
+<header class="header">
+  <div class="wrap">
+    <a href="/" class="logo">{{ site.title }}</a>
+    <nav class="nav">
+      <ul>
+        <li {% if page.url == '/' %}class="active"{% endif %}><a href="/">Het Proces</a></li>
+        <li {% if page.url == '/over/' %}class="active"{% endif %}><a href="/over">Over ons</a></li>
+        <li {% if page.url == '/contact/' %}class="active"{% endif %}><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</header>
