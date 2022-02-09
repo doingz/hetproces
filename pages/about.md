@@ -1,6 +1,6 @@
 ---
 layout: page.html
-title: Het Proces
+title: Over ons
 permalink: /about/
 ---
 # Wij zijn Het Proces
