@@ -1,7 +1,7 @@
 ---
-layout: index.html
-title: Het Proces
-permalink: "/"
+layout: page.html
+title: Over Het proces
+permalink: "/het-proces/"
 ---
 
 # Wij zijn Het Proces

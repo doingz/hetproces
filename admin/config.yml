@@ -7,7 +7,7 @@ media_folder: "uploads"
 
 collections:
 
-  - label: "About"
+  - label: "Pages"
     label_singular: "Page"
     name: "pages"
     editor:
@@ -31,9 +31,6 @@ collections:
       - label: "Meta descripton"
         name: "meta"
         widget: "string"
-      - label: "Excerpt"
-        name: "excerpt"
-        widget: "text"
       - label: "Body"
         name: "body"
         widget: "markdown"
