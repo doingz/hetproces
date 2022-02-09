@@ -2,7 +2,7 @@
   "name": "hetproces",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": ".eleventy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,9 +16,8 @@
   "bugs": {
     "url": "https://github.com/doingz/hetproces/issues"
   },
-  "homepage": "https://github.com/doingz/hetproces/",
+  "homepage": "https://github.com/doingz/hetproces#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0",
-    "sass": "^1.48.0"
+    "@11ty/eleventy": "^1.0.0"
   }
 }
