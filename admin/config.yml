@@ -1,0 +1,39 @@
+backend:
+  repo: doingz/hetproces
+  name: git-gateway
+  branch: main
+
+media_folder: "uploads"
+
+collections:
+
+  - label: "About"
+    label_singular: "Page"
+    name: "pages"
+    editor:
+      preview: false
+    folder: "pages"
+    create: false
+    fields:
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "page.html"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Thumbnail"
+        name: "title"
+        widget: "thumbnail"
+      - label: "Permalink"
+        name: "permalink"
+        widget: "string"
+      - label: "Meta descripton"
+        name: "meta"
+        widget: "string"
+      - label: "Excerpt"
+        name: "excerpt"
+        widget: "text"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
