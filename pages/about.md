@@ -1,5 +1,5 @@
 ---
-layout: index.html
+layout: page.html
 title: Het Proces
 permalink: /about/
 ---
