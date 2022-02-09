@@ -23,7 +23,7 @@ collections:
         name: "title"
         widget: "string"
       - label: "Thumbnail"
-        name: "title"
+        name: "thumbnail"
         widget: "thumbnail"
       - label: "Permalink"
         name: "permalink"
