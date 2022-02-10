@@ -1,5 +1,5 @@
 ---
-layout: project.html
+layout: page.html
 title: Project
 ---
 
