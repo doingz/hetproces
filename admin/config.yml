@@ -41,7 +41,7 @@ collections:
     editor:
       preview: false
     folder: "projects"
-    create: false
+    create: true
     fields:
       - label: "Layout"
         name: "layout"
