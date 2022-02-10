@@ -40,7 +40,7 @@ collections:
     name: "projects"
     editor:
       preview: false
-    folder: "pages"
+    folder: "projects"
     create: false
     fields:
       - label: "Layout"
