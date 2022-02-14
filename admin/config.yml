@@ -42,8 +42,12 @@ collections:
       preview: false
     folder: "projects"
     create: true
-    slug: "{{tags}}/{{slug}}"
     fields:
+      - permalink: "subdir/{{ mySlug }}/index.html"
+      - label: "Permalink"
+        name: "layout"
+        widget: "hidden"
+        default: "{{tags}}/{{slug}}"
       - label: "Layout"
         name: "layout"
         widget: "hidden"
