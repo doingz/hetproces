@@ -43,7 +43,6 @@ collections:
     folder: "projects"
     create: true
     fields:
-      - permalink: "subdir/{{ mySlug }}/index.html"
       - label: "Permalink"
         name: "permalink"
         widget: "hidden"
