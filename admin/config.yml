@@ -42,6 +42,7 @@ collections:
       preview: false
     folder: "projects"
     create: true
+    slug: "/{{tags}}/{{slug}}"
     fields:
       - label: "Layout"
         name: "layout"
