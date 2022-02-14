@@ -45,7 +45,7 @@ collections:
     fields:
       - permalink: "subdir/{{ mySlug }}/index.html"
       - label: "Permalink"
-        name: "layout"
+        name: "permalink"
         widget: "hidden"
         default: "{{tags}}/{{slug}}"
       - label: "Layout"
