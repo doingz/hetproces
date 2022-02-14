@@ -42,7 +42,7 @@ collections:
       preview: false
     folder: "projects"
     create: true
-    slug: "/{{tags}}/{{slug}}"
+    slug: "{{tags}}/{{slug}}"
     fields:
       - label: "Layout"
         name: "layout"
@@ -63,7 +63,7 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
-      - label: "Tags"
+      - label: "Tag"
         name: "tags"
         widget: "select"
         options: ["Gezondheidszorg", "Educatie", "Publieke ruimte", "Ideagame", "Ontwerp", "Prototyping"]
