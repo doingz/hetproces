@@ -1,5 +1,5 @@
 ---
-permalink: "{{tags}}/{{slug}}"
+permalink: "/{{tags[0] | slug }}/{{title | slug }}/"
 layout: page.html
 title: Title
 thumbnail: /uploads/dummie-002.png

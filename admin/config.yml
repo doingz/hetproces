@@ -46,7 +46,7 @@ collections:
       - label: "Permalink"
         name: "permalink"
         widget: "hidden"
-        default: "{{tags}}/{{slug}}"
+        default: "/{{tags[0] | slug }}/{{title | slug }}/"
       - label: "Layout"
         name: "layout"
         widget: "hidden"
