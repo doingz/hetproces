@@ -4,6 +4,12 @@ title: Project
 thumbnail: /uploads/dummie-002.png
 meta: Projectomschrijving
 excerpt: Excerpt lorem ipsum dolor sit amet, consectetur adipiscing elit.
+tags: Gezondheidszorg
+galleryImages:
+  - description: Foto omschrijving
+    image: /uploads/dummie-001.png
+  - description: Foto 2 omschrijving
+    image: /uploads/dummie-002.png
 ---
 
 # Project
