@@ -65,7 +65,7 @@ collections:
         widget: "markdown"
       - label: "Tags"
         name: "tags"
-        widget: "list"
+        widget: "select"
         options: ["Gezondheidszorg", "Educatie", "Publieke ruimte", "Ideagame", "Ontwerp", "Prototyping"]
       - label: "Gallery"
         name: "galleryImages"
