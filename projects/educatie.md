@@ -1,15 +1,14 @@
 ---
-layout: page.html
-title: Project
+permalink: "/{{tags[0] | slug }}/{{title | slug }}/"
+layout: page
+title: Educatie title
 thumbnail: /uploads/dummie-002.png
-meta: Projectomschrijving
-excerpt: Excerpt lorem ipsum dolor sit amet, consectetur adipiscing elit.
-tags: Gezondheidszorg
+meta: meta
+excerpt: Praesent a maximus purus, vel consectetur quam.
+tags: Educatie
 galleryImages:
-  - description: Foto omschrijving
+  - description: Descr
     image: /uploads/dummie-001.png
-  - description: Foto 2 omschrijving
-    image: /uploads/dummie-002.png
 ---
 
 # Project

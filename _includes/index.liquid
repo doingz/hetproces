@@ -1,0 +1,53 @@
+{% include head %}
+
+<body>
+
+  {% include header %}
+
+  <div class="intro"></div>
+
+  <div class="content">
+    <div class="wrap">
+      {{ content }}
+      <a href="#" class="btn">Lees verder</a>
+    </div>
+  </div>
+
+  <div class="content">
+
+    {% for cat in socialImpact %}
+
+    <div class="cat">
+      <h1>{{ cat }}</h1>
+      <div class="img"></div>
+
+      <div class="items">
+
+        {% for post in collections[cat]  %}
+
+        <div class="item">
+          <div class="img" style="background-image: url({{ post.data.thumbnail }})">
+          </div>
+          <div class="title">
+            <h2>{{ post.data.title }}</h2>
+          </div>
+          <div class="excerpt">
+            <p>{{ post.data.excerpt }}</p>
+            <a href="{{ post.url }}" class="btn">Lees verder</a>
+          </div>
+        </div>
+
+        {% endfor %}
+
+      </div>
+
+      {% endfor %}
+    </div>
+
+  </div>
+
+  {% include footer %}
+
+</body>
+
+</html>
