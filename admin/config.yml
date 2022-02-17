@@ -63,6 +63,11 @@ collections:
       - label: "Excerpt"
         name: "excerpt"
         widget: "text"
+      - label: "Key points"
+        name: "keypoints"
+        widget: "list"
+        fields:
+          - { label: "Text", name: "text", widget: "text" }
       - label: "Body"
         name: "body"
         widget: "markdown"
