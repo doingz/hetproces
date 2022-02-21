@@ -1,10 +1,13 @@
 ---
-permalink: "/{{tags[0] | slug }}/{{title | slug }}/"
+permalink: /{{tags[0] | slug }}/{{title | slug }}/
 layout: page
 title: Educatie title
 thumbnail: /uploads/dummie-002.png
 meta: meta
 excerpt: Praesent a maximus purus, vel consectetur quam.
+keypoints:
+  - text: Hallo
+  - text: Hoi
 tags: Educatie
 galleryImages:
   - description: Descr
