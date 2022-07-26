@@ -1,7 +1,7 @@
 ---
 layout: index
-title: Het Proces
-permalink: "/"
+title: Creating together
+permalink: "/together/"
 ---
 
 # Wij zijn Het Proces
