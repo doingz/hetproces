@@ -1,7 +1,20 @@
 ---
 layout: index
 title: Social Impact
-permalink: "/"
+intro: /uploads/home-intro.svg
+permalink: /
+meta: Wij zijn Het Proces
+categories:
+  - title: Gezondheidszorg
+    description: De zorg raakt direct aan de kwaliteit van leven van alle
+      Nederlanders. Het Proces doet onderzoek naar hoe goed ontwerp een bijdrage
+      kan leveren aan de kwaliteit van zorg.
+    image: /uploads/gezondheidszorg.png
+  - title: Educatie
+    description: De zorg raakt direct aan de kwaliteit van leven van alle
+      Nederlanders. Het Proces doet onderzoek naar hoe goed ontwerp een bijdrage
+      kan leveren aan de kwaliteit van zorg.
+    image: /uploads/gezondheidszorg.png
 ---
 
 # Wij zijn Het Proces
