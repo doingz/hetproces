@@ -1,7 +1,25 @@
 ---
 layout: index
-title: Creating together
-permalink: "/together/"
+title: Social Impact
+intro: /uploads/home-intro.svg
+permalink: /together/
+meta: Wij zijn Het Proces
+categories:
+  - title: Ideagame
+    description: De zorg raakt direct aan de kwaliteit van leven van alle
+      Nederlanders. Het Proces doet onderzoek naar hoe goed ontwerp een bijdrage
+      kan leveren aan de kwaliteit van zorg.
+    image: /uploads/gezondheidszorg.png
+  - title: Ontwerp
+    description: De zorg raakt direct aan de kwaliteit van leven van alle
+      Nederlanders. Het Proces doet onderzoek naar hoe goed ontwerp een bijdrage
+      kan leveren aan de kwaliteit van zorg.
+    image: /uploads/gezondheidszorg.png
+  - title: Prototyping
+    description: De zorg raakt direct aan de kwaliteit van leven van alle
+      Nederlanders. Het Proces doet onderzoek naar hoe goed ontwerp een bijdrage
+      kan leveren aan de kwaliteit van zorg.
+    image: /uploads/gezondheidszorg.png    
 ---
 
 # Wij zijn Het Proces

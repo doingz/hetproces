@@ -15,11 +15,15 @@
 
   <div class="content">
 
-    {% for cat in socialImpact %}
+    {% for cat in categories %}
 
     <div class="cat">
-      <h1>{{ cat }}</h1>
-      <div class="img"></div>
+      <h1>{{ cat.title }}</h1>
+      <div class="img" style="background-image: url({{ cat.image }})">
+        <div class="text">
+          {{ cat.descripton }}
+        </div>
+      </div>
 
       <div class="items">
 
