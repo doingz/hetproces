@@ -1,5 +1,5 @@
 ---
-permalink: "/{{tags[0] | slug }}/{{title | slug }}/"
+permalink: /{{tags[0] | slug }}/{{title | slug }}/
 layout: page
 title: Gezondheidszorg title
 thumbnail: /uploads/dummie-002.png
@@ -9,6 +9,9 @@ tags: Gezondheidszorg
 galleryImages:
   - description: Descr
     image: /uploads/dummie-001.png
+  - description: Omschrijving
+    image: /uploads/dummie-001.png
+video: "707012696"
 ---
 
 # Project
