@@ -12,6 +12,7 @@ tags: Educatie
 galleryImages:
   - description: Descr
     image: /uploads/dummie-001.png
+video: "707012696"
 ---
 
 # Project
