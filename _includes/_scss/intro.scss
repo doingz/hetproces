@@ -20,3 +20,11 @@
     background-repeat: no-repeat;
   }
 }
+
+.project {
+  .intro {
+    &::after {
+      display: none;
+    }
+  }
+}

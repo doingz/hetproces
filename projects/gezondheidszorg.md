@@ -1,6 +1,6 @@
 ---
 permalink: /{{tags[0] | slug }}/{{title | slug }}/
-layout: page
+layout: project
 title: Gezondheidszorg title
 thumbnail: /uploads/dummie-002.png
 meta: meta

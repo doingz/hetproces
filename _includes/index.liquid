@@ -4,7 +4,7 @@
 
   {% include header %}
 
-  <div class="intro"></div>
+  <div class="intro" style="background-image: url({{ thumbnail }})"></div>
 
   <div class="content">
     <div class="wrap">
@@ -27,7 +27,7 @@
 
       <div class="items">
 
-        {% for post in collections[cat]  %}
+        {% for post in collections[cat.title]  %}
 
         <div class="item">
           <div class="img" style="background-image: url({{ post.data.thumbnail }})">

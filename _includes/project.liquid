@@ -1,15 +1,35 @@
 {% include head %}
 
-<body>
+<body class="project">
 
   {% include header %}
 
-  <div class="intro"></div>
+  <div class="intro" style="background-image: url({{ thumbnail }})"></div>
 
   <div class="content">
     <div class="wrap">
+      <h1>{{ title }}</h1>
+      <div class="keypoints">
+        <ul>
+          {% for keypoint in keypoints %}
+            <li>{{ keypoint.text }}</li>
+          {% endfor %}
+        </ul>
+      </div>
       {{ content }}
-      <a href="#" class="btn">Lees verder</a>
+      <div class="gallery">
+        <ul>
+          {% for gallery in galleryImages %}
+            <li>
+              <img src="{{ gallery.image }}">
+              <p>{{ gallery.description }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="video">
+        <iframe width="100%" height="550" src="https://player.vimeo.com/video/{{ video }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+      </div>
     </div>
   </div>
 

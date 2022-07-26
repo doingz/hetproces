@@ -1,0 +1,25 @@
+.keypoints {
+  background-color: $pink;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  ul {
+    li {
+      position: relative;
+      padding: 0.6rem 1rem 0.6rem 1.6rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #fff;
+
+      &::after {
+        content: "";
+        width: 0.64rem;
+        height: 2px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate3d(0,-50%,0);
+        background-color: #fff;
+      }
+    }
+  }
+}
