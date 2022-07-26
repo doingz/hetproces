@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Social Impact
+title: Together
 intro: /uploads/home-intro.svg
 permalink: /together/
 meta: Wij zijn Het Proces
